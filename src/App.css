@@ -1,0 +1,46 @@
+.box {
+  box-sizing: border-box;
+  border: 1px solid lightslategray;
+  display: flex;
+  height: 60vh;
+  width: 60vw;
+  margin: 20vh 20vw;
+  padding: 3%;
+}
+.image {
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid lightslategray;
+  height: 95%;
+  width: 30%;
+  margin: auto 1% auto 0;
+  background-image: url(assets/test.jpg);
+  background-size: 100% 100%;
+}
+.details {
+  float: right;
+  box-sizing: border-box;
+  border-left: 1px solid lightslategray;
+  height: 100%;
+  width: 65%;
+  margin: auto 0 auto 1%;
+  padding: 5% auto;
+  padding-left: 5%;
+}
+
+.details .name {
+  font-size: larger;
+  font-weight: bold;
+}
+.details .most-recent-qualification {
+  font-size: medium;
+  font-style: oblique;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.details .more-details {
+  font-size: smaller;
+}
