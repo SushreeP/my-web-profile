@@ -1,6 +1,6 @@
 .box {
   box-sizing: border-box;
-  border: 1px solid lightslategray;
+  border: 5px solid lightslategray;
   display: flex;
   height: 60vh;
   width: 60vw;
@@ -10,7 +10,7 @@
 .image {
   float: left;
   box-sizing: border-box;
-  border: 1px solid lightslategray;
+  border: 0.5px solid lightslategray;
   height: 95%;
   width: 30%;
   margin: auto 1% auto 0;
