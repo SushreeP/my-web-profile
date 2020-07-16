@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+//import App from "./App";
+import BCard from "./BCard";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<BCard />, document.getElementById("root"));
